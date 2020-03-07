@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
-import './counter.css';
+import '../UsingHooks/counter.css';
 
-
-function Counter() {
+function UsePrevState() {
     const [count, setCount] = useState(0);
+
     const incrementCount = () => {
-        const newCount = count + 1;
-        setCount(newCount);
+        setCount(prevCount => prevCount + 1);
     }
 
-    const decrementCount = () => {
-        const newCount = count - 1;
-        setCount(newCount);
+    function decrementCount() {
+        setCount(prevCount => prevCount -1);    
+    }
+
+    function clearCount() {
+        setCount(0);
     }
     return (
         <div className="counter">
@@ -20,17 +22,10 @@ function Counter() {
             <div className="btnContainer">
                 <input type="button" className="btn" value="+" onClick={incrementCount} />
                 <input type="button" className="btn" value="-" onClick={decrementCount} />
+                <input type="button" className="btn" value="clear" onClick={clearCount} />
             </div>
-
-        </div>
-    )
-}
-function UsingHooks() {
-    return (
-        <div className="App">
-            <Counter />
         </div>
     )
 }
 
-export default UsingHooks;
+export default UsePrevState;
