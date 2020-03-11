@@ -2,7 +2,8 @@ import React from 'react';
 // import TodoApp from './TodoApp/TodoApp';
 // import UsingHooks from './UsingHooks/UsingHooks';
 // import UsePrevState from './UsePrevState/UsePrevState';
-import UseEffect from './UseEffect/index';
+// import UseEffect from './UseEffect/index';
+import UseStateWithObj from './UseStateWithObj/index';
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <TodoApp /> */}
       {/* <UsingHooks /> */}
       {/* <UsePrevState /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <UseStateWithObj />
     </div>
   )
 }
