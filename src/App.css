@@ -4,3 +4,132 @@
     align-items: center;
     justify-content: center;
 }
+
+.button {
+    min-width: 80px;
+    border: 1px solid;
+    background: white;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    transition: color 120ms ease-in, background-color 80ms ease-out;
+}
+
+.reset {
+    color: #f73e3e;
+    box-shadow: 2px 2px  #dd0000;
+}
+.reset:hover {
+    background-color: #f73e3e;
+    border-color: #f73e3e;
+    color: #ffffff;
+}
+.reset:active {
+    background-color: #ff0000;
+    box-shadow: none;
+}
+
+
+.undo {
+    color: #474747;
+    box-shadow: 2px 2px  #222222;
+
+}
+.undo:hover {
+    color: #ffffff;
+    background-color: #797979;
+    border-color: #797979;
+}
+.undo:active {
+    background-color: #474747;
+    box-shadow: none;
+}
+
+
+.newGame {
+    color: #3845ff;
+    box-shadow: 2px 2px  #0011ff;
+}
+.newGame:hover {
+    color: #ffffff;
+    background-color: #3845ff;
+    border-color: #3845ff;
+}
+.newGame:active {
+    background-color: #0011ff;
+    box-shadow: none;
+}
+
+
+.scoreBoard{
+    display: flex;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    min-width: 350px;
+}
+
+.P1Div {
+    width: 100%;
+    border-right: 1px solid #e6e6e6;
+}
+.P2Div {
+    width: 100%;
+    border-left: 1px solid #e6e6e6;
+}
+
+.headDiv {
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.bodyDiv {
+    padding: 20px 0;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.banner {
+    width: 100%;
+    min-height: 200px;
+    background-color: #3845ff;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: flashOpen 500ms ease-in;
+
+}
+
+@keyframes flashOpen {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from{
+        left: 1000px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+.message{
+    font-size: 6rem;
+    color: #ffffff;
+    position: absolute;
+    /* animation: slideIn 1000ms ease-in; */
+
+}
