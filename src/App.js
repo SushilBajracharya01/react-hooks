@@ -9,6 +9,8 @@ import ConditionalEffect from './ConditionalEffect';
 import ScoreBoard from './components/ScoreBoard';
 import Button from './components/Button';
 import Result from './Layout/Result';
+import Animation from './Animation';
+
 import './App.css';
 
 function App() {
@@ -23,13 +25,15 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseStateWithObj /> */}
       {/* <UseStateWithArray /> */}
-      <ConditionalEffect />
+      {/* <ConditionalEffect />
       
       <ScoreBoard P1Name="Sushil" P2Name="Ramesh" P1Score={2} P2Score={1} />
       <Button value="RESET" handleClick={handleClick} styles="reset" />
       <Button value="UNDO" handleClick={handleClick} styles="undo" />
       <Button value="NEW GAME" handleClick={handleClick} styles="newGame" />
-      <Result />
+      <Result /> */}
+
+      <Animation />
     </div>
   )
 }
