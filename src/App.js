@@ -10,9 +10,12 @@ import React from 'react';
 // import Button from './components/Button';
 // import Result from './Layout/Result';
 // import Animation from './Animation';
-import SchedulingApp from './Practise/SchedulingApp';
+// import SchedulingApp from './Practise/SchedulingApp';
+// import ToggleMousePosition from './Practise/ToggleMousePosition';
+
 
 import './App.css';
+import AutoCounter from './Practise/AutoCounter';
 
 function App() {
   return (
@@ -32,7 +35,9 @@ function App() {
       <Result /> */}
 
       {/* <Animation /> */}
-      <SchedulingApp/>
+      {/* <SchedulingApp/> */}
+      {/* <ToggleMousePosition /> */}
+      <AutoCounter />
     </div>
   )
 }

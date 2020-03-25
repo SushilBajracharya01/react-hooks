@@ -6,6 +6,7 @@ const UseEffect = () => {
     useEffect(()=>{
         document.title = `You clicked ${count} times.`;
     })
+    
     return (
         <div>
             <h1>Use Effect</h1>
