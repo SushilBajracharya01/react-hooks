@@ -5,18 +5,16 @@ import React from 'react';
 // import UseEffect from './UseEffect/index';
 // import UseStateWithObj from './UseStateWithObj/index';
 // import UseStateWithArray from './UseStateWithArray/UseStateWithArray';
-import ConditionalEffect from './ConditionalEffect';
-import ScoreBoard from './components/ScoreBoard';
-import Button from './components/Button';
-import Result from './Layout/Result';
-import Animation from './Animation';
+// import ConditionalEffect from './ConditionalEffect';
+// import ScoreBoard from './components/ScoreBoard';
+// import Button from './components/Button';
+// import Result from './Layout/Result';
+// import Animation from './Animation';
+import SchedulingApp from './Practise/SchedulingApp';
 
 import './App.css';
 
 function App() {
-  const handleClick =()=> {
-    console.log('Clicked')
-  }
   return (
     <div className="App">
       {/* <TodoApp /> */}
@@ -33,7 +31,8 @@ function App() {
       <Button value="NEW GAME" handleClick={handleClick} styles="newGame" />
       <Result /> */}
 
-      <Animation />
+      {/* <Animation /> */}
+      <SchedulingApp/>
     </div>
   )
 }
