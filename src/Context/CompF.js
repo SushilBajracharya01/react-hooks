@@ -1,17 +1,15 @@
-import React from 'react';
-import { UserContext } from './AppComp';
+import React, { useContext } from 'react';
+import { UserContext, PasswordContext } from './AppComp';
 
 function CompF() {
+
+    const user = useContext(UserContext);
+    const password = useContext(PasswordContext);
+
+
     return (
         <div>
-            <UserContext.Consumer>
-                {name => {
-                    return (
-                        <h1>hello, { name }</h1>
-                    )
-                }
-                }
-            </UserContext.Consumer>
+            {user} {password}
         </div>
     )
 }

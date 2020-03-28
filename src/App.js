@@ -13,9 +13,10 @@ import React from 'react';
 // import SchedulingApp from './Practise/SchedulingApp';
 // import ToggleMousePosition from './Practise/ToggleMousePosition';
 // import AutoCounter from './Practise/AutoCounter';
-import DataFetching from './DataFetching/DataFetching';
+// import DataFetching from './DataFetching/DataFetching';
 // import CoronaHome from './coronaInfo/CoronaHome';
 // import RuleHome from './202020rule/index';
+import AppComp from "./Context/AppComp";
 
 import './App.css';
 
@@ -40,9 +41,10 @@ function App() {
       {/* <SchedulingApp/> */}
       {/* <ToggleMousePosition /> */}
       {/* <AutoCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
       {/* <CoronaHome /> */}
       {/* <RuleHome /> */}
+      <AppComp />
     </div>
   )
 }
