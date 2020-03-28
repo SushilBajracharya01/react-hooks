@@ -16,7 +16,8 @@ import React from 'react';
 // import DataFetching from './DataFetching/DataFetching';
 // import CoronaHome from './coronaInfo/CoronaHome';
 // import RuleHome from './202020rule/index';
-import AppComp from "./Context/AppComp";
+// import AppComp from "./Context/AppComp";
+import ExampleReducer from './useReducer/ExampleReducer';
 
 import './App.css';
 
@@ -29,13 +30,13 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseStateWithObj /> */}
       {/* <UseStateWithArray /> */}
-      {/* <ConditionalEffect />
+      {/* <ConditionalEffect /> */}
       
-      <ScoreBoard P1Name="Sushil" P2Name="Ramesh" P1Score={2} P2Score={1} />
-      <Button value="RESET" handleClick={handleClick} styles="reset" />
-      <Button value="UNDO" handleClick={handleClick} styles="undo" />
-      <Button value="NEW GAME" handleClick={handleClick} styles="newGame" />
-      <Result /> */}
+      {/* <ScoreBoard P1Name="Sushil" P2Name="Ramesh" P1Score={2} P2Score={1} />
+      <Button value="RESET" styles="reset" />
+      <Button value="UNDO" styles="undo" />
+      <Button value="NEW GAME" styles="newGame" /> */}
+      {/* <Result /> */}
 
       {/* <Animation /> */}
       {/* <SchedulingApp/> */}
@@ -44,7 +45,8 @@ function App() {
       {/* <DataFetching /> */}
       {/* <CoronaHome /> */}
       {/* <RuleHome /> */}
-      <AppComp />
+      {/* <AppComp /> */}
+      <ExampleReducer />
     </div>
   )
 }
