@@ -16,8 +16,9 @@ import React from 'react';
 // import DataFetching from './DataFetching/DataFetching';
 // import CoronaHome from './coronaInfo/CoronaHome';
 // import RuleHome from './202020rule/index';
-// import AppComp from "./Context/AppComp";
-import ExampleReducer from './useReducer/ExampleReducer';
+// import AppComp from './Context/AppComp';
+// import ExampleReducer from './useReducer/ExampleReducer';
+// import ObjectReducer from './useReducer/ObjectReducer';
 
 import './App.css';
 
@@ -46,7 +47,8 @@ function App() {
       {/* <CoronaHome /> */}
       {/* <RuleHome /> */}
       {/* <AppComp /> */}
-      <ExampleReducer />
+      {/* <ExampleReducer /> */}
+      {/* <ObjectReducer /> */}
     </div>
   );
 }
