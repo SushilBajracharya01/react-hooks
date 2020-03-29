@@ -31,7 +31,7 @@ function App() {
       {/* <UseStateWithObj /> */}
       {/* <UseStateWithArray /> */}
       {/* <ConditionalEffect /> */}
-      
+
       {/* <ScoreBoard P1Name="Sushil" P2Name="Ramesh" P1Score={2} P2Score={1} />
       <Button value="RESET" styles="reset" />
       <Button value="UNDO" styles="undo" />
@@ -48,7 +48,7 @@ function App() {
       {/* <AppComp /> */}
       <ExampleReducer />
     </div>
-  )
+  );
 }
 
 export default App;
