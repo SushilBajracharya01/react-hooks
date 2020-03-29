@@ -19,6 +19,9 @@ import React from 'react';
 // import AppComp from './Context/AppComp';
 // import ExampleReducer from './useReducer/ExampleReducer';
 // import ObjectReducer from './useReducer/ObjectReducer';
+// import ConRedExample from './useContext&useReducer/ConRedExample';
+// import DataFetching from './useReducer/DataFetching';
+import DataFetchingTwo from './useReducer/DataFetchingTwo';
 
 import './App.css';
 
@@ -49,6 +52,9 @@ function App() {
       {/* <AppComp /> */}
       {/* <ExampleReducer /> */}
       {/* <ObjectReducer /> */}
+      {/* <ConRedExample /> */}
+      {/* <DataFetching /> */}
+      <DataFetchingTwo />
     </div>
   );
 }
