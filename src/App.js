@@ -21,7 +21,9 @@ import React from 'react';
 // import ObjectReducer from './useReducer/ObjectReducer';
 // import ConRedExample from './useContext&useReducer/ConRedExample';
 // import DataFetching from './useReducer/DataFetching';
-import DataFetchingTwo from './useReducer/DataFetchingTwo';
+// import DataFetchingTwo from './useReducer/DataFetchingTwo';
+// import ClassComp from './Test/ClassComp';
+import UseCallBack from './useCallback/useCallback';
 
 import './App.css';
 
@@ -54,7 +56,9 @@ function App() {
       {/* <ObjectReducer /> */}
       {/* <ConRedExample /> */}
       {/* <DataFetching /> */}
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
+      {/* <ClassComp /> */}
+      <UseCallBack />
     </div>
   );
 }
