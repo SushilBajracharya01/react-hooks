@@ -24,7 +24,8 @@ import React from 'react';
 // import DataFetchingTwo from './useReducer/DataFetchingTwo';
 // import ClassComp from './Test/ClassComp';
 // import UseCallBack from './useCallback/useCallback';
-import Counter from './useMemo/Counter';
+// import Counter from './useMemo/Counter';
+import Game from './Test/Game';
 
 import './App.css';
 
@@ -60,7 +61,8 @@ function App() {
       {/* <DataFetchingTwo /> */}
       {/* <ClassComp /> */}
       {/* <UseCallBack /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Game />
     </div>
   );
 }
